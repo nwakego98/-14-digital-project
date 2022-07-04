@@ -1,0 +1,281 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box ;
+}
+
+body{
+ font-family:DM sans ;
+}
+
+.wrapper{
+    width: 1922px;
+    margin: 0 auto;
+    padding: 10px -1px;
+}
+
+/*Header - Navigation  */
+
+.nav{
+    display: absolute;
+justify-items: center;
+align-items: center;
+background:var(--light-color);
+box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.1);
+border-radius: 24px;
+padding:2px 30px ;
+padding-right: 0;
+left: 1100px;
+
+
+position: absolute;
+z-index: 200;
+width:calc(1922px -200px) ;
+top: 23px;
+}
+
+.nav .menu-items{
+display: flex;
+list-style: none;
+} 
+
+.nav .menu-items li{
+    margin: 0 20px;
+}
+
+.nav .menu-items li:nth-last-of-type(1){
+    margin-left: 50px;
+}
+
+.nav .menu-items li a{
+    text-decoration: none;
+    color:  var(--background#02073E);
+    font-size: 15px;
+    font-weight: 400px;
+}
+
+.nav .menu-items li a.btn{
+    color: var(--dark-color);
+}
+
+a.btn{
+    background:var(--blue-color);
+    color: var(--light-color);
+    border-radius: 25px;
+    padding: 20px 100px;
+}
+
+/* hero section */
+.hero-container{
+    height: 100px;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+
+
+.hero-container .logo{
+    position: absolute;
+    left: 1400px;
+    top:100px;
+    z-index: -1;
+}
+
+.hero-container .text{
+position:absolute;
+width: 700px;
+height: 161px;
+left: 1200px;
+top: 300px;
+margin-bottom: 83px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 80px;
+/* or 125% */
+
+text-align: center;
+letter-spacing: -1.375px;
+justify-items: center;
+
+color: #02073E;
+}
+
+.hero-container .pattern {
+ position: absolute;
+width: 100px;
+height: 50px;
+left: 800px;
+top: 20px;
+justify-content: center;
+align-items: center;
+}
+
+.hero-container .markup{
+    position: absolute;
+width: 600px;
+height: 320px;
+left: 1000px;
+top: 490px;
+background: #FFFFFF;
+border: 1.5px solid #E2E9F0;
+border-radius: 15px 15px 0px 0px;
+background: #F9FBFD;
+border: 2px solid #E2E9F0;
+border-radius: 30px 30px 0px 0px;
+background: #FFFFFF;
+border: 1.5px solid #E2E9F0;
+border-radius: 15px 15px 0px 0px;
+justify-content: left;
+}
+
+/* features section */
+
+.features-section{
+    position: absolute;
+    width: 154px;
+    height: 85.5px;
+    left: 768px;
+    top: 1087px;
+}
+
+
+.features-section .features-container{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-gap: 22px 95.15px;
+margin-top: 210.5px;
+}
+
+.features-section .features-container img{
+height: 250px;
+}
+
+.features-section h2, section h2{
+    position: absolute;
+width: 384px;
+height: 55px;
+left: 676px;
+top: 25px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 55px;
+/* identical to box height, or 183% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -1.5px;
+
+color: #0F2137;
+}
+
+.features-section p, section p{
+    position: absolute;
+width: 241px;
+height: 26px;
+left: 750px;
+top: 75px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 26px;
+/* identical to box height, or 144% */
+
+display: flex;
+align-items: flex-end;
+text-align: center;
+
+color: #858B91;
+}
+
+.features-section .features-container-top img{
+    position: absolute;
+    width: 110rem;
+    height: 664px;
+    left: 60px;
+    top: 800px;
+    margin-top:90px ;
+    justify-content: center;
+    align-items: center;
+}
+
+.features-section .features-container-bottom img{
+    position: absolute;
+    width: 100rem;
+    height: 544px;
+    left: 164px;
+    top: 1721px;
+}
+
+/* slide features section */
+
+.slidefeatures-section{
+    position: absolute;
+width: 1920px;
+height: 1099.75px;
+left: 700px;
+top: 3519px;
+background: #F9FAFC;
+}
+
+.slidefeatures-section background{
+    position: absolute;
+width: 1920px;
+height: 920px;
+left: 1px;
+top: 3419px;
+padding: 334px 336px;
+margin-bottom:5%;
+}
+
+.slidefeatures-container-top{
+position: absolute;
+width: 100rem;
+height: 935px;
+left: 465px;
+top: 1207px;
+}
+
+.slidefeatures-container-bottom{
+position: absolute;
+width: 2480px;
+height: 920px;
+left: 128px;
+top: 2200px;
+right: 189;
+}
+
+/* Blog features section */
+
+.Blog-section{
+    position: absolute;
+    width: 1199.43px;
+    height: 701px;
+    left: 1200px;
+    top: 6700px;
+
+}
+
+.FAQ-section{
+    position: absolute;
+    width: 1193px;
+    height: 711px;
+    left: 1200px;
+    top: 7530px;
+}
+
+.footer-section{
+position: absolute;
+width: 1920px;
+height: 560px;
+left: 800px;
+top: 8291px;
+}
